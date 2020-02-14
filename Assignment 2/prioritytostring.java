@@ -25,7 +25,7 @@ class prioritytostring
         String s1="";
         while(!pQueue.isEmpty())
         {
-            s1=s1+Integer.toString(pQueue.poll())+" ";
+            s1=s1+Integer.toString(pQueue.poll());
         }
         System.out.println(s1);
         sc.close();
